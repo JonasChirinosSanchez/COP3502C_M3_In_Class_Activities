@@ -1,0 +1,18 @@
+#Module 3 Activity 2
+
+price = float(input("Enter the price: "))
+black_friday = input("Is it black friday [y/n]: ")
+coupon = input("Do you have a coupon [y/n]: ")
+employee_discount = input("Do you have an employee discount [y/n]: ")
+
+if black_friday == "y":
+    price = price * .6
+
+if coupon == "y":
+    price = price * .95
+
+if employee_discount == "y":
+    price = price * .8
+
+
+print(f"The final price is: ${price:.2f}")
