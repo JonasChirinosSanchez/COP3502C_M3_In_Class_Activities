@@ -1,0 +1,18 @@
+#Module 3 Activity 1
+
+operation = input("Enter the operation: ")
+first_operand = float(input("Enter the first operand: "))
+second_operand = float(input("Enter the second operand: "))
+
+if operation == "add":
+    result = first_operand + second_operand
+elif operation == "sub":
+    result = first_operand - second_operand
+elif operation == "mul":
+    result = first_operand * second_operand
+else:
+    result = first_operand / second_operand
+
+print("Result is ", round(result, 2))
+
+
